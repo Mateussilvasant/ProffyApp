@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { View, Image, Text, TouchableOpacity } from 'react-native'
 import { styles } from './styles';
 import LandingSvg from '../../assets/images/landing.svg';
@@ -7,12 +7,23 @@ import GiveClassesSvg from '../../assets/images/icons/give-classes.svg';
 import StudySvg from '../../assets/images/icons/study.svg';
 import HeartSvg from '../../assets/images/icons/heart.svg';
 import { useNavigation } from '@react-navigation/native';
+import api from '../../services/api';
 
 
 
 export function Landing() {
 
     const {navigate} = useNavigation();
+    const [totalConnections, setTotalConnections] = useState(0);
+
+    useEffect(() => {
+      api.get("connections").then(response => {
+        const { total } = response.data;
+  
+        setTotalConnections(total);
+      })
+    }, [])
+  
 
     function handleNavigateToGiveClassesPage(){
         navigate('GiveClasses');
@@ -42,7 +53,7 @@ export function Landing() {
             </View>
 
             <Text style={styles.totalConnections}>
-                Total de 285 conexões realizadas {' '} <HeartSvg  />
+                Total de {totalConnections} conexões realizadas {' '} <HeartSvg  />
             </Text>
 
         </View>

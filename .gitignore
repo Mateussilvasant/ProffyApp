@@ -1,13 +1,4 @@
 /server
 /.vscode
 .vscode/settings.json
-mobile/babel.config.js
-mobile/app.json
-mobile/metro.config.js
-mobile/package.json
-mobile/tsconfig.json
-mobile/yarn-error.log
-mobile/rn.cli.config.js
-mobile/yarn.lock
-mobile/src/@types/declarations.d.ts.ts
-mobile/.expo-shared/assets.json
+mobile/src/services/api.config.ts

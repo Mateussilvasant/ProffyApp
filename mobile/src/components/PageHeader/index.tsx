@@ -8,7 +8,7 @@ import { useNavigation } from '@react-navigation/native';
 
 interface PageHeaderProps{
     title: string,
-    childrenRight : React.ReactNode
+    childrenRight?: React.ReactNode
 }
 
 export const PageHeader : React.FC<PageHeaderProps> = ({title, children,childrenRight}) =>{
