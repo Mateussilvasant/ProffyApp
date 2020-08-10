@@ -1,4 +1,3 @@
-/server
 /.vscode
 .vscode/settings.json
 mobile/src/services/api.config.ts
