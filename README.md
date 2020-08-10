@@ -202,7 +202,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <sub><b>Mateus Silva</b></sub></a></a>
  <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-Mateus-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mateus-silva-b79054128/)](https://www.linkedin.comin/mateus-silva-b79054128/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Mateus-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mateus-silva-b79054128/)](https://www.linkedin.com/in/mateus-silva-b79054128/) 
 
 ---
 
@@ -210,6 +210,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
-Feito por Mateus Silva, agradeço a visita... 👋🏽 [Entre em contato!](https://www.linkedin.comin/mateus-silva-b79054128/)
+Feito por Mateus Silva, agradeço a visita... 👋🏽 [Entre em contato!](https://www.linkedin.com/in/mateus-silva-b79054128/)
 
 ---
